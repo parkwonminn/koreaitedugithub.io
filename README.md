@@ -1,1 +1,1 @@
-# koreaitedugithub.io
+# 코리아 it 아카데미입니다.
