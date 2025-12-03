@@ -1,7 +1,7 @@
 :root {
-    --primary: #3b82f6;
-    --primary-glow: rgba(59, 130, 246, 0.5);
-    --accent: #8b5cf6;
+    --primary: #f97316;
+    --primary-glow: rgba(249, 115, 22, 0.5);
+    --accent: #fb923c;
     --bg-dark: #ffffff;
     --bg-card: rgba(249, 250, 251, 0.95);
     --text-main: #1e293b;
@@ -151,7 +151,7 @@ body.show-chatbot .chatbot {
 .chatbox .incoming p {
     border-radius: 10px 10px 10px 0;
     color: var(--text-main);
-    background: rgba(59, 130, 246, 0.05);
+    background: rgba(249, 115, 22, 0.05);
     border: 1px solid var(--glass-border);
 }
 
