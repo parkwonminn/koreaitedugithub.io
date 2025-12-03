@@ -2,10 +2,10 @@
     --primary: #3b82f6;
     --primary-glow: rgba(59, 130, 246, 0.5);
     --accent: #8b5cf6;
-    --bg-dark: #0f172a;
-    --bg-card: rgba(30, 41, 59, 0.7);
-    --text-main: #f8fafc;
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-dark: #ffffff;
+    --bg-card: rgba(249, 250, 251, 0.95);
+    --text-main: #1e293b;
+    --glass-border: rgba(0, 0, 0, 0.1);
 }
 
 /* Chatbot Styles */
@@ -151,7 +151,7 @@ body.show-chatbot .chatbot {
 .chatbox .incoming p {
     border-radius: 10px 10px 10px 0;
     color: var(--text-main);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(59, 130, 246, 0.05);
     border: 1px solid var(--glass-border);
 }
 

@@ -1,12 +1,12 @@
 :root {
-    --bg-dark: #0f172a;
-    --bg-card: rgba(30, 41, 59, 0.7);
+    --bg-dark: #ffffff;
+    --bg-card: rgba(255, 255, 255, 0.9);
     --primary: #3b82f6;
     --primary-glow: rgba(59, 130, 246, 0.5);
     --accent: #8b5cf6;
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --glass-border: rgba(0, 0, 0, 0.1);
     --font-main: 'Inter', sans-serif;
     --transition: all 0.3s ease;
 }
@@ -109,8 +109,9 @@ h3 {
     z-index: 1000;
     transition: var(--transition);
     backdrop-filter: blur(10px);
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid var(--glass-border);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .nav-container {
@@ -143,7 +144,7 @@ h3 {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: white;
+    color: var(--primary);
 }
 
 .hamburger {
@@ -168,7 +169,7 @@ h3 {
     transform: translateX(-50%);
     width: 800px;
     height: 800px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, rgba(15, 23, 42, 0) 70%);
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
     z-index: -1;
     pointer-events: none;
 }
@@ -202,7 +203,7 @@ h3 {
     justify-content: center;
     gap: 60px;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(59, 130, 246, 0.05);
     border-radius: 20px;
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(10px);
@@ -216,7 +217,7 @@ h3 {
 .stat-number {
     font-size: 2rem;
     font-weight: 700;
-    color: white;
+    color: var(--primary);
 }
 
 .stat-label {
@@ -258,12 +259,13 @@ h3 {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .card:hover {
     transform: translateY(-10px);
     border-color: rgba(59, 130, 246, 0.3);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
 }
 
 .icon-box {
@@ -283,7 +285,7 @@ h3 {
 /* Courses Section */
 .courses {
     padding: 100px 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(59, 130, 246, 0.03);
 }
 
 .course-card {
@@ -294,7 +296,7 @@ h3 {
 
 .course-image {
     height: 200px;
-    background-color: #1e293b;
+    background-color: #f1f5f9;
     background-size: cover;
     background-position: center;
 }
@@ -348,7 +350,7 @@ h3 {
 
 .tech-stack li {
     padding: 6px 12px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(59, 130, 246, 0.1);
     border-radius: 8px;
     font-size: 0.85rem;
     color: var(--text-muted);
@@ -403,10 +405,10 @@ h3 {
 .form-group select {
     width: 100%;
     padding: 12px 16px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.8);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
-    color: white;
+    color: var(--text-main);
     font-size: 1rem;
     transition: var(--transition);
 }
@@ -415,7 +417,7 @@ h3 {
 .form-group select:focus {
     outline: none;
     border-color: var(--primary);
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 1);
 }
 
 /* Map Section */
@@ -453,7 +455,7 @@ footer {
 .footer-logo {
     font-weight: 800;
     font-size: 1.2rem;
-    color: white;
+    color: var(--text-main);
     margin-bottom: 12px;
 }
 
@@ -513,7 +515,7 @@ footer {
         top: 70px;
         left: 0;
         width: 100%;
-        background: var(--bg-dark);
+        background: rgba(255, 255, 255, 0.98);
         flex-direction: column;
         padding: 20px;
         border-bottom: 1px solid var(--glass-border);
@@ -531,7 +533,7 @@ footer {
         display: block;
         width: 25px;
         height: 3px;
-        background: white;
+        background: var(--text-main);
         margin: 5px 0;
     }
 
